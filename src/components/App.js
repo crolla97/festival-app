@@ -1,11 +1,12 @@
 import React from 'react';
+import ShowsPage from './ShowsPage';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <ShowsPage />
     </div>
-  );
-}
+  )
+};
 
 export default App;
